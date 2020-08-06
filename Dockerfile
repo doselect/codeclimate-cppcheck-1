@@ -19,4 +19,4 @@ USER app
 VOLUME /code
 WORKDIR /code
 
-CMD ["/usr/src/app/bin/codeclimate-cppcheck"]
+CMD ["python3", "/usr/src/app/bin/codeclimate-cppcheck"]
